@@ -677,7 +677,7 @@ Section:NewButton("Execute", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
 end)
 
-local Tab = Window:NewTab("Natural Disaster Survival 🌍")
+local Tab = Window:NewTab("Natural Disaster")
 local Section = Tab:NewSection("Eclipse Hub")
 Section:NewButton("Execute", "ButtonInfo", function()
     getgenv().mainKey = "nil"
