@@ -4186,6 +4186,10 @@ Section:NewButton("Execute", "ButtonInfo", function()
 			
 		end)
 end)
+local Section = Tab:NewSection("Peekadao kor")
+Section:NewButton("Execute", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
+end)
 
 local Tab = Window:NewTab("Avatar Script")
 local Section = Tab:NewSection("Bike")
